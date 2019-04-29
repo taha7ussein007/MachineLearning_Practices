@@ -6,9 +6,9 @@ This information from general sources mainly i'm studying from Udemy - Machine L
 If you want to start machine learning, Linear regression is the best place to start. Linear Regression is a regression model, meaning, it’ll take features and predict a [continuous] output, eg : stock price,salary etc. Linear regression as the name says, finds a linear curve solution to every problem.
 #### Basic Theory :
 LR allocates weight parameter, theta for each of the training features. The predicted output(h(θ)) will be a linear function of features and θ coefficients.
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/tree/master/images/lr1.png)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/lr1.png)
 During the start of training, each theta is randomly initialized. But during the training, we correct the theta corresponding to each feature such that, the loss (metric of the deviation between expected and predicted output) is minimized. Gradient descend algorithm will be used to align the θ values in the right direction. In the below diagram, each red dots represent the training data and the blue line shows the derived solution.
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/tree/master/images/lr2.gif)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/lr2.gif)
 
 #### Loss function :
 - In LR, we use mean squared error as the metric of loss. 
