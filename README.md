@@ -2,12 +2,15 @@
 This information from general sources mainly i'm studying from Udemy - Machine Learning from A to Z
 
 ## Regression
-### Simple Linear Regression
-If you want to start machine learning, Linear regression is the best place to start. Linear Regression is a regression model, meaning, it’ll take features and predict a [continuous] output, eg : stock price,salary etc. Linear regression as the name says, finds a linear curve solution to every problem.
+### Simple Linear Regression & Multiple Linear Regression
+If you want to start machine learning, Linear regression is the best place to start.
+Linear Regression is a regression model, meaning, it’ll take features and predict a [continuous] output, eg : stock price,salary etc. Linear regression as the name says, finds a linear curve solution to every problem.
 #### Basic Theory :
-LR allocates weight parameter, theta for each of the training features. The predicted output(h(θ)) will be a linear function of features and θ coefficients.
+LR allocates weight parameter, theta for each of the training features. 
+The predicted output(h(θ)) will be a linear function of features and θ coefficients.
 ![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/lr1.png)
 During the start of training, each theta is randomly initialized. But during the training, we correct the theta corresponding to each feature such that, the loss (metric of the deviation between expected and predicted output) is minimized. Gradient descend algorithm will be used to align the θ values in the right direction. In the below diagram, each red dots represent the training data and the blue line shows the derived solution.
+
 ![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/lr2.gif)
 
 #### Loss function :
@@ -82,9 +85,31 @@ https://medium.com/@kabab/linear-regression-with-python-d4e10887ca43
 http://r-statistics.co/Assumptions-of-Linear-Regression.html
 ```
 
-
-### Multiple Linear Regression
 ### Polynomial Regression
+In the last section, we saw two variables in your data set were correlated but what happens if we know that our data is correlated, but the relationship doesn’t look linear? So hence depending on what the data looks like, we can do a polynomial regression on the data to fit a polynomial equation to it.
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/plr1.gif)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/plr2.gif)
+
+Hence If we try to use a simple linear regression in the above graph then the linear regression line won’t fit very well. It is very difficult to fit a linear regression line in the above graph with a low value of error. Hence we can try to use the polynomial regression to fit a polynomial line so that we can achieve a minimum error or minimum cost function.
+This is the general equation of a polynomial regression is:
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/plr3.png)
+
+##### Advantages of using Polynomial Regression:
+- Polynomial provides the best approximation of the relationship between the dependent and independent variable.
+- A Broad range of function can be fit under it.
+- Polynomial basically fits a wide range of curvature.
+
+##### Disadvantages of using Polynomial Regression
+- The presence of one or two outliers in the data can seriously affect the results of the nonlinear analysis.
+- These are too sensitive to the outliers.
+- In addition, there are unfortunately fewer model validation tools for the detection of outliers in nonlinear regression than there are for linear regression.
+
+#### SOURCES 
+```
+https://towardsdatascience.com/introduction-to-linear-regression-and-polynomial-regression-f8adc96f31cb
+```
+
+
 ### Support Vector Regression
 ### Decission Tree Regression
 ### Random Forest Regression
