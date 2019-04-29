@@ -3,7 +3,7 @@ This information from general sources mainly i'm studying from Udemy - Machine L
 
 ## Regression
 ### Simple Linear Regression
-If you want to start machine learning, Linear regression is the best place to start. Linear Regression is a regression model, meaning, it’ll take features and predict a continuous output, eg : stock price,salary etc. Linear regression as the name says, finds a linear curve solution to every problem.
+If you want to start machine learning, Linear regression is the best place to start. Linear Regression is a regression model, meaning, it’ll take features and predict a [continuous] output, eg : stock price,salary etc. Linear regression as the name says, finds a linear curve solution to every problem.
 #### Basic Theory :
 LR allocates weight parameter, theta for each of the training features. The predicted output(h(θ)) will be a linear function of features and θ coefficients.
 ![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/tree/master/images/lr1.png)
@@ -36,6 +36,7 @@ During the start of training, each theta is randomly initialized. But during the
 - Linear relationship between the independent and dependent variables.
 - Training data to be homoskedastic, meaning the variance of the errors should be somewhat constant.
 - Independent variables should not be co-linear.
+- Indepence of errors
 #### Colinearity & Outliers :
 - Two features are said to be colinear when one feature can be linearly predicted from the other with somewhat accuracy.
 - colinearity will simply inflate the standard error and causes some significant features to become insignificant during training. 
@@ -74,11 +75,13 @@ During the start of training, each theta is randomly initialized. But during the
 - NN will be slow compared to LR.
 - Average accuracy will be always better with neural networks.
 
-####SOURCES 
+#### SOURCES 
 ```
 https://towardsdatascience.com/comparative-study-on-classic-machine-learning-algorithms-24f9ff6ab222
 https://medium.com/@kabab/linear-regression-with-python-d4e10887ca43
+http://r-statistics.co/Assumptions-of-Linear-Regression.html
 ```
+
 
 ### Multiple Linear Regression
 ### Polynomial Regression
