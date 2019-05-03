@@ -111,6 +111,28 @@ https://towardsdatascience.com/introduction-to-linear-regression-and-polynomial-
 
 
 ### Support Vector Regression
+This post is about SUPPORT VECTOR REGRESSION. Those who are in Machine Learning or Data Science are quite familiar with the term SVM or Support Vector Machine. But SVR is a bit different from SVM. As the name suggest the SVR is an regression algorithm , so we can use SVR for working with continuous Values instead of Classification which is SVM.
+
+The terms that we are going to be using frequently in this post
+
+1- Kernel: The function used to map a lower dimensional data into a higher dimensional data.
+2- Hyper Plane: In SVM this is basically the separation line between the data classes. Although in SVR we are going to define it as the line that will will help us predict the continuous value or target value
+3- Boundary line: In SVM there are two lines other than Hyper Plane which creates a margin . The support vectors can be on the Boundary lines or outside it. This boundary line separates the two classes. In SVR the concept is same.
+4- Support vectors: This are the data points which are closest to the boundary. The distance of the points is minimum or least.
+#### Why SVR ? Whats the main difference between SVR and a simple regression model?
+In simple regression we try to minimise the error rate. While in SVR we try to fit the error within a certain threshold. This might be a bit confusing but let me explain.
+
+#### Simply 
+What we are trying to do here is basically trying to decide a decision boundary at ‘e’ distance from the original hyper plane such that data points closest to the hyper plane or the support vectors are within that boundary line
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svr1.png)
+
+
+#### SOURCES 
+```
+https://medium.com/coinmonks/support-vector-regression-or-svr-8eb3acf6d0ff
+https://www.researchgate.net/figure/Schematic-of-the-one-dimensional-support-vector-regression-SVR-model-Only-the-points_fig5_320916953
+```
+
 ### Decission Tree Regression
 ### Random Forest Regression
 
