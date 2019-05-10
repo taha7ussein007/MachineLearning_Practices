@@ -8,7 +8,7 @@ Linear Regression is a regression model, meaning, it’ll take features and pred
 #### Basic Theory :
 LR allocates weight parameter, theta for each of the training features. 
 The predicted output(h(θ)) will be a linear function of features and θ coefficients.
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/lr1.png)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/lr1.PNG)
 During the start of training, each theta is randomly initialized. But during the training, we correct the theta corresponding to each feature such that, the loss (metric of the deviation between expected and predicted output) is minimized. Gradient descend algorithm will be used to align the θ values in the right direction. In the below diagram, each red dots represent the training data and the blue line shows the derived solution.
 
 ![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/lr2.gif)
@@ -93,7 +93,7 @@ In the last section, we saw two variables in your data set were correlated but w
 
 Hence If we try to use a simple linear regression in the above graph then the linear regression line won’t fit very well. It is very difficult to fit a linear regression line in the above graph with a low value of error. Hence we can try to use the polynomial regression to fit a polynomial line so that we can achieve a minimum error or minimum cost function.
 This is the general equation of a polynomial regression is:
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/plr3.png)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/plr3.PNG)
 
 ##### Advantages of using Polynomial Regression:
 - Polynomial provides the best approximation of the relationship between the dependent and independent variable.
@@ -125,7 +125,7 @@ In simple regression we try to minimise the error rate. While in SVR we try to f
 
 #### Simply 
 What we are trying to do here is basically trying to decide a decision boundary at ‘e’ distance from the original hyper plane such that data points closest to the hyper plane or the support vectors are within that boundary line
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svr1.png)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svr1.PNG)
 
 
 #### SOURCES 
@@ -136,18 +136,18 @@ https://www.researchgate.net/figure/Schematic-of-the-one-dimensional-support-vec
 
 ### Decission Tree Regression
 Simply it is a non linear and non continuous regressor and it try to take average for each range of values 
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART1.png)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART1.PNG)
 CART stand for classification and regression tree:
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART2.png)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART2.PNG)
 
 Regression are a bit more complex than classsification and require more attention, so i will try to break this complex topic in a simple way.
 
 So here we got a scatter plot which represents data here we got 2 independent variables, and what we are predicting is a 3rd variable Y. You can’t see it into this model because its a bidimensional chart, but imagine Y as the 3rd dimension sticking out of your screen.
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART3.png)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART3.PNG)
 
 So if we add a 3rd dimesion it would look like at in the top right window, but we don’t need to see Y because we first need to work with this scatterplot and see how decision tree is created. So once we run the decision tree algorithm in the regression sense of it what would happen is that your scaterplot would be split up in segments. So lets have a look how this algorithm would do it:
 
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART4.png)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART4.PNG)
 
 Now how and where these splits are conducted is determined by the algorithm which uses mathematical entrophy when performing the split. This split increases the amount of information on the scattered points by adding some values and ultimately stop when it cannot add anymore information to our setup and splits these segments in leaves. For example when we have less than 5% of our total points in our local leaf, that segment wouldn’t be created, so the most important thing is where the split happens. And to in order to have a more in-depth understanding of how the split is determined you need to dive into mathematical entrophy, but this will not be covered here as it is beyond the scope of this article.
 
@@ -155,10 +155,10 @@ For now is sufficient to know that the algorithm will handle this, and find the 
 
 So lets rewind all of it once again and create split one. As we can see the first split Split 1 happens at 20, so here we basically have two options. Then Split 2 happens at 170 so that means that condition x1<20 is satisfied. We will go ahead and create Split 3 at 200 and Split 4 at 40:
 
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART5.png)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART5.PNG)
 
 So when our decision tree is is drawn we populate the boxes, where we consider our dependent variable and check for paths of new obervation which are added to our dataset. So lets say we add an observation x1=30 and x2= 50, it would fall between terminal leafs 1 and 3 and this information helps us in predicting the value of Y. The way this works is pretty straight forward: we just take the average of each of theterminal leafs so we calculate the average of all those points, and that value will be assigned to the entire terminal leaf.
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART6.png)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART6.PNG)
 
 #### Advantages of CART
 - Simple to understand, interpret, visualize.
