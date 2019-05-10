@@ -83,6 +83,7 @@ During the start of training, each theta is randomly initialized. But during the
 https://towardsdatascience.com/comparative-study-on-classic-machine-learning-algorithms-24f9ff6ab222
 https://medium.com/@kabab/linear-regression-with-python-d4e10887ca43
 http://r-statistics.co/Assumptions-of-Linear-Regression.html
+https://www.listendata.com/2014/11/difference-between-linear-regression.html
 ```
 
 ### Polynomial Regression
@@ -134,6 +135,62 @@ https://www.researchgate.net/figure/Schematic-of-the-one-dimensional-support-vec
 ```
 
 ### Decission Tree Regression
+Simply it is a non linear and non continuous regressor and it try to take average for each range of values 
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART1.png)
+CART stand for classification and regression tree:
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART2.png)
+
+Regression are a bit more complex than classsification and require more attention, so i will try to break this complex topic in a simple way.
+
+So here we got a scatter plot which represents data here we got 2 independent variables, and what we are predicting is a 3rd variable Y. You can’t see it into this model because its a bidimensional chart, but imagine Y as the 3rd dimension sticking out of your screen.
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART3.png)
+
+So if we add a 3rd dimesion it would look like at in the top right window, but we don’t need to see Y because we first need to work with this scatterplot and see how decision tree is created. So once we run the decision tree algorithm in the regression sense of it what would happen is that your scaterplot would be split up in segments. So lets have a look how this algorithm would do it:
+
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART4.png)
+
+Now how and where these splits are conducted is determined by the algorithm which uses mathematical entrophy when performing the split. This split increases the amount of information on the scattered points by adding some values and ultimately stop when it cannot add anymore information to our setup and splits these segments in leaves. For example when we have less than 5% of our total points in our local leaf, that segment wouldn’t be created, so the most important thing is where the split happens. And to in order to have a more in-depth understanding of how the split is determined you need to dive into mathematical entrophy, but this will not be covered here as it is beyond the scope of this article.
+
+For now is sufficient to know that the algorithm will handle this, and find the optimal number of leafs which will be call terminal leafs.
+
+So lets rewind all of it once again and create split one. As we can see the first split Split 1 happens at 20, so here we basically have two options. Then Split 2 happens at 170 so that means that condition x1<20 is satisfied. We will go ahead and create Split 3 at 200 and Split 4 at 40:
+
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART5.png)
+
+So when our decision tree is is drawn we populate the boxes, where we consider our dependent variable and check for paths of new obervation which are added to our dataset. So lets say we add an observation x1=30 and x2= 50, it would fall between terminal leafs 1 and 3 and this information helps us in predicting the value of Y. The way this works is pretty straight forward: we just take the average of each of theterminal leafs so we calculate the average of all those points, and that value will be assigned to the entire terminal leaf.
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/CART6.png)
+
+#### Advantages of CART
+- Simple to understand, interpret, visualize.
+- Decision trees implicitly perform variable screening or feature selection.
+- Can handle both numerical and categorical data. Can also handle multi-output problems.
+- Decision trees require relatively little effort from users for data preparation.
+- Nonlinear relationships between parameters do not affect tree performance.
+#### Disadvantages of CART
+- Decision-tree learners can create over-complex trees that do not generalize the data well. This is called overfitting.
+- Decision trees can be unstable because small variations in the data might result in a completely different tree being generated. This is called variance, which needs to be lowered by methods like bagging and boosting.
+- Greedy algorithms cannot guarantee to return the globally optimal decision tree. This can be mitigated by training multiple trees, where the features and samples are randomly sampled with replacement.
+- Decision tree learners create biased trees if some classes dominate. It is therefore recommended to balance the data set prior to fitting with the decision tree.
+
+#### Tips and Tricks
+Can help you decide on whether or not it’s the right model for your problem :-
+
+##### Pros
+- Easy to understand and interpret. At each node, we are able to see exactly what decision our model is making. In practice we’ll be able to fully understand where our accuracies and errors are coming from, what type of data the model would do well with, and how the output is influenced by the values of the features. Scikit learn’s visualisation tool is a fantastic option for visualising and understanding decision trees.
+- Require very little data preparation. Many ML models may require heavy data pre-processing such as normalization and may require complex regularisation schemes. Decision trees on the other hand work quite well out of the box after tweaking a few of the parameters.
+- The cost of using the tree for inference is logarithmic in the number of data points used to train the tree. That’s a huge plus since it means that having more data won’t necessarily make a huge dent in our inference speed.
+
+##### Cons
+- Overfitting is quite common with decision trees simply due to the nature of their training. It’s often recommended to perform some type of dimensionality reduction such as PCA so that the tree doesn’t have to learn splits on so many features
+- For similar reasons as the case of overfitting, decision trees are also vulnerable to becoming biased to the classes that have a majority in the dataset. It’s always a good idea to do some kind of class balancing such as class weights, sampling, or a specialised loss function.
+
+#### SOURCES 
+```
+https://medium.com/data-py-blog/decision-tree-regression-in-python-b185a3c63f2b
+https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052
+https://towardsdatascience.com/a-guide-to-decision-trees-for-machine-learning-and-data-science-fe2607241956
+```
+
 ### Random Forest Regression
 
 ## Classification
