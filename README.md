@@ -275,6 +275,60 @@ https://hackernoon.com/choosing-the-right-machine-learning-algorithm-68126944ce1
 ```
 
 ### K-Nearest Neighbors (K-NN)
+K-nearest neighbors is a non-parametric method used for classification and regression. It is one of the most easy ML technique used. It is a lazy learning model, with local approximation.
+
+#### Basic Theory :
+The basic logic behind KNN is to explore your neighborhood, assume the test datapoint to be similar to them and derive the output. In KNN, we look for k neighbors and come up with the prediction.
+
+In case of KNN classification, a majority voting is applied over the k nearest datapoints whereas, in KNN regression, mean of k nearest datapoints is calculated as the output. As a rule of thumb, we selects odd numbers as k. KNN is a lazy learning model where the computations happens only runtime.
+
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/knn1.PNG)
+
+In the above diagram yellow and violet points corresponds to Class A and Class B in training data. The red star, points to the testdata which is to be classified. when k = 3, we predict Class B as the output and when K=6, we predict Class A as the output.
+
+#### Loss function :
+There is no training involved in KNN. During testing, k neighbors with minimum distance, will take part in classification /regression.
+
+#### Advantages :
+Easy and simple machine learning model.
+Few hyperparameters to tune.
+#### Disadvantages :
+k should be wisely selected.
+Large computation cost during runtime if sample size is large.
+Proper scaling should be provided for fair treatment among features.
+#### Hyperparameters :
+KNN mainly involves two hyperparameters, K value & distance function.
+
+#### K value : how many neighbors to participate in the KNN algorithm. k should be tuned based on the validation error.
+distance function : Euclidean distance is the most used similarity function. Manhattan distance, Hamming Distance, Minkowski distance are different alternatives.
+#### Assumptions :
+There should be clear understanding about the input domain.
+feasibly moderate sample size (due to space and time constraints).
+colinearity and outliers should be treated prior to training.
+#### Comparison with other models :
+A general difference between KNN and other models is the large real time computation needed by KNN compared to others.
+
+#### KNN vs naive bayes :
+
+Naive bayes is much faster than KNN due to KNN’s real-time execution.
+Naive bayes is parametric whereas KNN is non-parametric.
+#### KNN vs linear regression :
+
+KNN is better than linear regression when the data have high SNR.
+#### KNN vs SVM :
+
+SVM take cares of outliers better than KNN.
+If training data is much larger than no. of features(m>>n), KNN is better than SVM. SVM outperforms KNN when there are large features and lesser training data.
+#### KNN vs Neural networks :
+
+Neural networks need large training data compared to KNN to achieve sufficient accuracy.
+NN needs lot of hyperparameter tuning compared to KNN.
+
+```
+https://towardsdatascience.com/comparative-study-on-classic-machine-learning-algorithms-24f9ff6ab222
+https://hackernoon.com/choosing-the-right-machine-learning-algorithm-68126944ce1f
+https://www.fromthegenesis.com/pros-and-cons-of-k-nearest-neighbors/
+```
 
 ### Support Vector Machine (SVM)
 ### Kernel SVM
