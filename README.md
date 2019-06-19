@@ -195,7 +195,87 @@ https://towardsdatascience.com/a-guide-to-decision-trees-for-machine-learning-an
 
 ## Classification
 ### Logistic Regression
+Just like linear regression, Logistic regression is the right algorithm to start with classification algorithms. Eventhough, the name ‘Regression’ comes up, it is not a regression model, but a classification model. It uses a logistic function to frame binary output model. The output of the logistic regression will be a probability (0≤x≤1), and can be used to predict the binary 0 or 1 as the output ( if x<0.5, output= 0, else output=1).
+#### Basic Theory :
+Logistic Regression acts somewhat very similar to linear regression. It also calculates the linear output, followed by a stashing function over the regression output. Sigmoid function is the frequently used logistic function. You can see below clearly, that the z value is same as that of the linear regression output in Eqn(1).
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/logR1.PNG)
+
+The h(θ) value here corresponds to P(y=1|x), ie, probability of output to be binary 1, given input x. P(y=0|x) will be equal to 1-h(θ).
+
+when value of z is 0, g(z) will be 0.5. Whenever z is positive, h(θ) will be greater than 0.5 and output will be binary 1. Likewise, whenever z is negative, value of y will be 0. As we use a linear equation to find the classifier, the output model also will be a linear one, that means it splits the input dimension into two spaces with all points in one space corresponds to same label.
+
+The figure below shows the distribution of a sigmoid function.
+
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/logR2.PNG)
+
+#### Loss function :
+We can’t use mean squared error as loss function(like linear regression), because we use a non-linear sigmoid function at the end. MSE function may introduce local minimums and will affect the gradient descend algorithm.
+
+So we use cross entropy as our loss function here. Two equations will be used, corresponding to y=1 and y=0. The basic logic here is that, whenever my prediction is badly wrong, (eg : y’ =1 & y = 0), cost will be -log(0) which is infinity.
+
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/logR3.PNG)
+
+In the equation given, m stands for training data size, y’ stands for predicted output and y stands for actual output.
+
+
+#### Logistic regression can be used in cases such as:
+
+- Predicting the Customer Churn
+- Credit Scoring & Fraud Detection
+- Measuring the effectiveness of marketing campaigns
+
+#### Advantages :
+- Easy, fast and simple classification method.
+- θ parameters explains the direction and intensity of significance of independent variables over the dependent variable.
+- Can be used for multiclass classifications also.
+- Loss function is always convex.
+#### Disadvantages :
+- Cannot be applied on non-linear classification problems.
+- Proper selection of features is required.
+- Good signal to noise ratio is expected.
+- Colinearity and outliers tampers the accuracy of LR model.
+#### Hyperparameters :
+Logistic regression hyperparameters are similar to that of linear regression. Learning rate(α) and Regularization parameter(λ) have to be tuned properly to achieve high accuracy.
+
+#### Assumptions of LR :
+Logistic regression assumptions are similar to that of linear regression model. please refer the above section.
+
+#### Comparison with other models :
+##### Logistic regression vs SVM :
+
+- SVM can handle non-linear solutions whereas logistic regression can only handle linear solutions.
+- Linear SVM handles outliers better, as it derives maximum margin solution.
+- Hinge loss in SVM outperforms log loss in LR.
+##### Logistic Regression vs Decision Tree :
+
+- Decision tree handles colinearity better than LR.
+- Decision trees cannot derive the significance of features, but LR can.
+- Decision trees are better for categorical values than LR.
+##### Logistic Regression vs Neural network :
+
+- NN can support non-linear solutions where LR cannot.
+- LR have convex loss function, so it wont hangs in a local minima, whereas NN may hang.
+- LR outperforms NN when training data is less and features are large, whereas NN needs large training data.
+##### Logistic Regression vs Naive Bayes :
+
+- Naive bayes is a generative model whereas LR is a discriminative model.
+- Naive bayes works well with small datasets, whereas LR+regularization can achieve similar performance.
+- LR performs better than naive bayes upon colinearity, as naive bayes expects all features to be independent.
+##### Logistic Regression vs KNN :
+
+- KNN is a non-parametric model, where LR is a parametric model.
+- KNN is comparatively slower than Logistic Regression.
+- KNN supports non-linear solutions where LR supports only linear solutions.
+- LR can derive confidence level (about its prediction), whereas KNN can only output the labels.
+
+#### SOURCES 
+```
+https://towardsdatascience.com/comparative-study-on-classic-machine-learning-algorithms-24f9ff6ab222
+https://hackernoon.com/choosing-the-right-machine-learning-algorithm-68126944ce1f
+```
+
 ### K-Nearest Neighbors (K-NN)
+
 ### Support Vector Machine (SVM)
 ### Kernel SVM
 ### Naive Bayes
