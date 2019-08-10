@@ -374,13 +374,21 @@ for the point X3:
 Explanation: when the point X3 we can say that point lies away from the hyperplane and the equation determines that the product of our actual output and the hyperplane equation is greater 1 which means the point is correctly classified in the positive domain.
 for the point X4:
 
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm8.PNG)
+
 Explanation: when the point X4 we can say that point lies on the hyperplane in the negative region and the equation determines that the product of our actual output and the hyperplane equation is equal to 1 which means the point is correctly classified in the negative domain.
 for the point X6 :
 
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm9.PNG)
+
 Explanation: when the point X6 we can say that point lies away from the hyperplane in the negative region and the equation determines that the product of our actual output and the hyperplane equation is greater 1 which means the point is correctly classified in the negative domain.
 Let’s look into the constraints which are not classified:
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm10.PNG)
 
 for point X7:
+
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm11.PNG)
+
 
 Explanation: When Xi = 7 the point is classified incorrectly because for point 7 the wT + b will be smaller than one and this violates the constraints. So we found the misclassification because of constraint violation. Similarly, we can also say for points Xi = 8.
 Thus from the above examples, we can conclude that for any point Xi,
@@ -393,6 +401,8 @@ So we can see that if the points are linearly separable then only our hyperplane
 We basically consider that the data is linearly separable and this might not be the case in real life scenario. We need an update so that our function may skip few outliers and be able to classify almost linearly separable points. For this reason, we introduce a new Slack variable ( ξ ) which is called Xi.
 if we introduce ξ it into our previous equation we can rewrite it as
 
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm12.PNG)
+
 Introduction of Xi
 if ξi= 0,
 the points can be considered as correctly classified.
@@ -403,11 +413,15 @@ so if ξi> 0 it means that Xi(variables)lies in incorrect dimension, thus we can
 average error
 thus our objective, mathematically can be described as;
 
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm13.PNG)
+
 
 where ξi = ςi
 READING: To find the vector w and the scalar b such that the hyperplane represented by w and b maximizes the margin distance and minimizes the loss term subjected to the condition that all points are correctly classified.
 This formulation is called the Soft margin technique.
 ##### 8. Loss Function Interpretation of SVM:
+
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm14.PNG)
 
 
 when Zi is ≥ 1 then the loss is 0
