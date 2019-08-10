@@ -411,22 +411,21 @@ else:
 so if ξi> 0 it means that Xi(variables)lies in incorrect dimension, thus we can think of ξi as an error term associated with Xi(variable). The average error can be given as;
 
 average error
-thus our objective, mathematically can be described as;
 
 ![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm13.PNG)
+
+thus our objective, mathematically can be described as;
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm14.PNG)
+
 
 
 where ξi = ςi
 READING: To find the vector w and the scalar b such that the hyperplane represented by w and b maximizes the margin distance and minimizes the loss term subjected to the condition that all points are correctly classified.
 This formulation is called the Soft margin technique.
 ##### 8. Loss Function Interpretation of SVM:
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm15.PNG)
 
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm14.PNG)
 
-
-when Zi is ≥ 1 then the loss is 0
-
-when Zi < 1 then loss increases.
 thus it can be interpreted that hinge loss is max(0,1-Zi).
 ##### 9. Dual form of SVM:
 Now, let’s consider the case when our data set is not at all linearly separable.
