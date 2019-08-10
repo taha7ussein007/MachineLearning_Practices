@@ -363,10 +363,12 @@ the equations of each hyperplane can be considered as:
 ![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm5.PNG)
 
 for the point X1 :
+
 ![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm6.PNG)
 
 Explanation: when the point X1 we can say that point lies on the hyperplane and the equation determines that the product of our actual output and the hyperplane equation is 1 which means the point is correctly classified in the positive domain.
 for the point X3:
+
 ![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm7.PNG)
 
 Explanation: when the point X3 we can say that point lies away from the hyperplane and the equation determines that the product of our actual output and the hyperplane equation is greater 1 which means the point is correctly classified in the positive domain.
