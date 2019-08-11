@@ -429,9 +429,11 @@ This formulation is called the Soft margin technique.
 thus it can be interpreted that hinge loss is max(0,1-Zi).
 ##### 9. Dual form of SVM:
 Now, let’s consider the case when our data set is not at all linearly separable.
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm16.PNG)
 
 basically, we can separate each data point by projecting it into the higher dimension by adding relevant features to it as we do in logistic regression. But with SVM there is a powerful way to achieve this task of projecting the data into a higher dimension. The above-discussed formulation was the primal form of SVM . The alternative method is dual form of SVM which uses Lagrange’s multiplier to solve the constraints optimization problem.
 
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm17.PNG)
 
 Note:
 If αi>0 then Xi is a Support vector and when αi=0 then Xi is not a support vector.
@@ -442,9 +444,10 @@ The major advantage of dual form of SVM over Lagrange formulation is that it onl
 ##### 10. What is Kernel trick?
 Coming to the major part of the SVM for which it is most famous, the kernel trick. The kernel is a way of computing the dot product of two vectors x and y in some (very high dimensional) feature space, which is why kernel functions are sometimes called “generalized dot product.
 
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm18.PNG)
+
 try reading this equation…
 
-s.t = subjected to
 Applying kernel trick means just to the replace dot product of two vectors by the kernel function.
 ##### 11. Types of kernels:
 linear kernel
@@ -454,6 +457,8 @@ We will be focusing on the polynomial and Gaussian kernel since its most commonl
 Polynomial kernel:
 In general, the polynomial kernel is defined as ;
 
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm19.PNG)
+
 b = degree of kernel & a = constant term.
 in the polynomial kernel, we simply calculate the dot product by increasing the power of the kernel.
 Example:
@@ -462,20 +467,27 @@ Xa = (a1 ,a2)
 Xb = (b1 ,b2)
 now if we want to map our data into higher dimension let’s say in Z space which is six-dimensional it may seem like
 
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm20.PNG)
+
 In order to solve the solve this dual SVM we would require the dot product of (transpose) Za ^t and Zb.
 - Method 1:
 traditionally we would solve this by :
+
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm21.PNG)
 
 which will a lot of time as we would have to performs dot product on each datapoint and then to compute the dot product we may need to do multiplications Imagine doing this for thousand datapoints….
 Or else we could simply use
 - Method 2:
 using kernel trick:
 
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm22.PNG)
+
 In this method, we can simply calculate the dot product by increasing the value of power. Simple isn’t it?
 Radial basis function kernel (RBF)/ Gaussian Kernel:
 Gaussian RBF(Radial Basis Function) is another popular Kernel method used in SVM models for more. RBF kernel is a function whose value depends on the distance from the origin or from some point. Gaussian Kernel is of the following format;
 
-||X1 — X2 || = Euclidean distance between X1 & X2
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm23.PNG)
+
 Using the distance in the original space we calculate the dot product (similarity) of X1 & X2.
 Note: similarity is the angular distance between two points.
 Parameters:
