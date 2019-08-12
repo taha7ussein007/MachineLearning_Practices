@@ -1,5 +1,5 @@
 # Machine Learning Algorithms Basic Information
-This information from general sources mainly i'm studying from Udemy - Machine Learning from A to Z
+This information from general sources but mainly i'm studying from Udemy - Machine Learning from A to Z
 i'm trying to collect special notes and explaintions in case the articles were lost or removed 
 
 ## Regression
@@ -331,7 +331,8 @@ https://hackernoon.com/choosing-the-right-machine-learning-algorithm-68126944ce1
 https://www.fromthegenesis.com/pros-and-cons-of-k-nearest-neighbors/
 ```
 
-### Support Vector Machine (SVM)
+### Support Vector Machine (SVM) + Kernel SVM (Non Linear)
+
 ##### 1. What is SVM?
 Support vector machines so called as SVM is a supervised learning algorithm which can be used for classification and regression problems as support vector classification (SVC) and support vector regression (SVR). It is used for smaller dataset as it takes too long to process. In this set, we will be focusing on SVC.
 ##### 2. The ideology behind SVM:
@@ -497,6 +498,15 @@ As the value of ‘c’ decreases the model underfits.
 2. γ : Gamma (used only for RBF kernel)
 Behavior: As the value of ‘ γ’ increases the model gets overfits.
 As the value of ‘ γ’ decreases the model underfits.
+
+* Another simple point of view for gaussian kernel
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm-0.PNG)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm-1.PNG)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm-2.PNG)
+
+* Summary for kernels 
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/svm-3.PNG)
+
 #####  12. Pros and cons of SVM:
 Pros:
 It is really effective in the higher dimension.
@@ -522,8 +532,15 @@ http://cs229.stanford.edu/notes/cs229-notes3.pdf
 https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
 ```
 
-### Kernel SVM
 ### Naive Bayes
+
+
+
+#### SOURCES 
+```
+
+```
+
 ### Decision Tree Classification
 ### Random Forest Classification
 
