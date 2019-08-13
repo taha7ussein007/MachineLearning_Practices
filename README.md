@@ -596,6 +596,17 @@ https://machinelearningmastery.com/naive-bayes-for-machine-learning/
 ```
 
 ### Decision Tree Classification
+
+
+```
+https://medium.com/deep-math-machine-learning-ai/chapter-4-decision-trees-algorithms-b93975f7a1f1
+https://medium.com/@chiragsehra42/decision-trees-explained-easily-28f23241248
+https://medium.com/machine-learning-101/chapter-3-decision-trees-theory-e7398adac567
+https://medium.com/@rishabhjain_22692/decision-trees-it-begins-here-93ff54ef134
+https://towardsdatascience.com/https-medium-com-lorrli-classification-and-regression-analysis-with-decision-trees-c43cdbc58054
+https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052
+```
+
 ### Random Forest Classification
 
 ## Clustering
