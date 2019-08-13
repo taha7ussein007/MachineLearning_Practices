@@ -598,6 +598,7 @@ https://machinelearningmastery.com/naive-bayes-for-machine-learning/
 ### Decision Tree Classification
 
 
+#### SOURCES
 ```
 https://medium.com/deep-math-machine-learning-ai/chapter-4-decision-trees-algorithms-b93975f7a1f1
 https://medium.com/@chiragsehra42/decision-trees-explained-easily-28f23241248
@@ -609,6 +610,15 @@ https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052
 
 ### Random Forest Classification
 
+#### SOURCES
+```
+https://blog.goodaudience.com/introduction-to-random-forest-algorithm-with-python-9efd1d8f0157
+https://towardsdatascience.com/an-implementation-and-explanation-of-the-random-forest-in-python-77bf308a9b76
+https://dataaspirant.com/2017/05/22/random-forest-algorithm-machine-learing/
+https://www.datascience.com/blog/classification-random-forests-in-python
+https://towardsdatascience.com/understanding-random-forest-58381e0602d2
+https://medium.com/@hjhuney/implementing-a-random-forest-classification-model-in-python-583891c99652
+```
 ## Clustering
 ### K-Means Clustering
 ### Hierarchical Clustering
