@@ -620,11 +620,32 @@ https://towardsdatascience.com/understanding-random-forest-58381e0602d2
 https://medium.com/@hjhuney/implementing-a-random-forest-classification-model-in-python-583891c99652
 ```
 ## Clustering
+
 ### K-Means Clustering
+
+SOURCES
+```
+https://machinelearningmedium.com/2018/04/19/k-means-clustering/
+https://becominghuman.ai/comprehending-k-means-and-knn-algorithms-c791be90883d
+http://www.datastuff.tech/machine-learning/k-means-clustering-unsupervised-learning-for-recommender-systems/
+https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1
+https://medium.com/@dilekamadushan/introduction-to-k-means-clustering-7c0ebc997e00
+https://medium.com/data-py-blog/k-means-clustering-in-python-4fc8caa0e0d9
+```
 ### Hierarchical Clustering
 
+SOURCES
+```
+https://medium.com/@iSunilSV/data-science-python-hierarchical-clustering-fbf54d274dc6
+https://medium.com/machine-learning-researcher/clustering-k-mean-and-hierarchical-cluster-fa2de08b4a4b
+https://medium.com/data-science-group-iitr/clustering-described-63e62833099e
+https://towardsdatascience.com/understanding-the-concept-of-hierarchical-clustering-technique-c6e8243758ec
+```
+
 ## Association Rule Learning
+
 ### Apriori
+
 ### Eclat
 
 ## Natural Language Processing (English) 
