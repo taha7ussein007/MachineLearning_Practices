@@ -623,7 +623,7 @@ https://medium.com/@hjhuney/implementing-a-random-forest-classification-model-in
 
 ### K-Means Clustering
 
-SOURCES
+#### SOURCES
 ```
 https://machinelearningmedium.com/2018/04/19/k-means-clustering/
 https://becominghuman.ai/comprehending-k-means-and-knn-algorithms-c791be90883d
@@ -634,7 +634,7 @@ https://medium.com/data-py-blog/k-means-clustering-in-python-4fc8caa0e0d9
 ```
 ### Hierarchical Clustering
 
-SOURCES
+#### SOURCES
 ```
 https://medium.com/@iSunilSV/data-science-python-hierarchical-clustering-fbf54d274dc6
 https://medium.com/machine-learning-researcher/clustering-k-mean-and-hierarchical-cluster-fa2de08b4a4b
@@ -645,7 +645,7 @@ https://towardsdatascience.com/understanding-the-concept-of-hierarchical-cluster
 ## Association Rule Learning
 
 ### Apriori
-SOURCES
+#### SOURCES
 ```
 https://www.edureka.co/blog/apriori-algorithm/
 https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html
@@ -655,20 +655,31 @@ https://medium.com/@dhavalbagal99/market-basket-analysis-using-apriori-algorithm
 https://medium.com/weekly-data-science/the-intuition-behind-the-apriori-algorithm-4efe312ccc3c
 ```
 ### Eclat
-SOURCES
+#### SOURCES
 ```
 https://medium.com/machine-learning-researcher/association-rule-apriori-and-eclat-algorithm-4e963fa972a4
+https://towardsdatascience.com/a-gentle-introduction-on-market-basket-analysis-association-rules-fa4b986a40ce
 https://www.slideshare.net/deepa15/eclat-37310304
 https://www.slideshare.net/wanaezwani/apriori-and-eclat-algorithm-in-association-rule-mining
 https://medium.com/machine-learning-researcher/association-rule-apriori-and-eclat-algorithm-4e963fa972a4
 ```
 
-## Natural Language Processing (English) 
-
 
 ## Reinforcement Learning
+
 ### Upper Confidence Bound (UCB)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/UCB.PNG)
+#### SOURCES
+```
+https://medium.com/@SYM0920/the-multi-armed-bandits-problem-bba9ea35a1e4
+https://banditalgs.com/2016/09/18/the-upper-confidence-bound-algorithm/
+https://www.analyticsvidhya.com/blog/2018/09/reinforcement-multi-armed-bandit-scratch-python/
+http://arun-aiml.blogspot.com/2017/07/upper-confidence-bound-ucb.html
+```
 ### Thompson Sampling
+
+
+## Natural Language Processing (English) 
 
 ## Dimensionality Reduction 
 ### Principal Component Analysis (PCA)
