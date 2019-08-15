@@ -645,8 +645,23 @@ https://towardsdatascience.com/understanding-the-concept-of-hierarchical-cluster
 ## Association Rule Learning
 
 ### Apriori
+SOURCES
+```
+https://www.edureka.co/blog/apriori-algorithm/
+https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html
 
+https://medium.com/@amardeepchauhan/market-basket-analysis-part-1-2-apriori-algorithm-and-association-rule-mining-693e4fd2d69c
+https://medium.com/@dhavalbagal99/market-basket-analysis-using-apriori-algorithm-215fb308bd1c
+https://medium.com/weekly-data-science/the-intuition-behind-the-apriori-algorithm-4efe312ccc3c
+```
 ### Eclat
+SOURCES
+```
+https://medium.com/machine-learning-researcher/association-rule-apriori-and-eclat-algorithm-4e963fa972a4
+https://www.slideshare.net/deepa15/eclat-37310304
+https://www.slideshare.net/wanaezwani/apriori-and-eclat-algorithm-in-association-rule-mining
+https://medium.com/machine-learning-researcher/association-rule-apriori-and-eclat-algorithm-4e963fa972a4
+```
 
 ## Natural Language Processing (English) 
 
