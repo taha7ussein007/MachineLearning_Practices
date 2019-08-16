@@ -680,16 +680,35 @@ http://arun-aiml.blogspot.com/2017/07/upper-confidence-bound-ucb.html
 ![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/Thompson_Sampling.PNG)
 #### SOURCES
 ```
-
+https://www.coursera.org/lecture/practical-rl/thompson-sampling-okvvc
+https://blog.insightdatascience.com/multi-armed-bandits-for-dynamic-movie-recommendations-5eb8f325ed1d
+https://towardsdatascience.com/solving-multiarmed-bandits-a-comparison-of-epsilon-greedy-and-thompson-sampling-d97167ca9a50
 ```
 
 ## Natural Language Processing (English) 
+#### SOURCES
+```
+https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
+https://medium.com/@ageitgey/natural-language-processing-is-fun-9a0bff37854e
+https://medium.com/greyatom/a-dive-into-natural-language-processing-103ae9b0a588
+https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48ea2511f6e1
+```
+
+## Deep Learning
+### Neural Networks
+
+### Convolutional Neural Networks
+
 
 ## Dimensionality Reduction 
 ### Principal Component Analysis (PCA)
+
 ### Linear Discriminant Analysis (LDA)
+
 ### Kernel PCA
 
 ## Model Selection and Boosting
+
 ### Model Selection	
+
 ### XGBoost
