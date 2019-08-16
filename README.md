@@ -677,7 +677,11 @@ https://www.analyticsvidhya.com/blog/2018/09/reinforcement-multi-armed-bandit-sc
 http://arun-aiml.blogspot.com/2017/07/upper-confidence-bound-ucb.html
 ```
 ### Thompson Sampling
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/Thompson_Sampling.PNG)
+#### SOURCES
+```
 
+```
 
 ## Natural Language Processing (English) 
 
