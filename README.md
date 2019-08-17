@@ -668,7 +668,7 @@ https://medium.com/machine-learning-researcher/association-rule-apriori-and-ecla
 ## Reinforcement Learning
 
 ### Upper Confidence Bound (UCB)
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/UCB.PNG)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/UCB.png)
 #### SOURCES
 ```
 https://medium.com/@SYM0920/the-multi-armed-bandits-problem-bba9ea35a1e4
@@ -677,7 +677,7 @@ https://www.analyticsvidhya.com/blog/2018/09/reinforcement-multi-armed-bandit-sc
 http://arun-aiml.blogspot.com/2017/07/upper-confidence-bound-ucb.html
 ```
 ### Thompson Sampling
-![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/Thompson_Sampling.PNG)
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/Thompson_Sampling.png)
 #### SOURCES
 ```
 https://www.coursera.org/lecture/practical-rl/thompson-sampling-okvvc
@@ -686,6 +686,7 @@ https://towardsdatascience.com/solving-multiarmed-bandits-a-comparison-of-epsilo
 ```
 
 ## Natural Language Processing (English) 
+
 #### SOURCES
 ```
 https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
@@ -696,6 +697,15 @@ https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48e
 
 ## Deep Learning
 ### Neural Networks
+![alt text](https://github.com/taha7ussein007/MachineLearning_Practices/blob/master/images/Stochastic_Gradient_Descent.png)
+#### SOURCES
+```
+https://medium.com/analytics-vidhya/neural-networks-for-digits-recognition-e11d9dff00d5
+https://hackernoon.com/building-a-feedforward-neural-network-from-scratch-in-python-d3526457156b
+https://www.freecodecamp.org/news/building-a-3-layer-neural-network-from-scratch-99239c4af5d3/
+https://medium.com/datadriveninvestor/math-neural-network-from-scratch-in-python-d6da9f29ce65
+https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1
+```
 
 ### Convolutional Neural Networks
 
