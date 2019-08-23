@@ -744,11 +744,27 @@ https://www.freecodecamp.org/news/how-we-changed-unsupervised-lda-to-semi-superv
 ### Kernel PCA
 #### SOURCES
 ```
-
+https://towardsdatascience.com/dimensionality-reduction-toolbox-in-python-9a18995927cd
+https://www.kaggle.com/nirajvermafcb/principal-component-analysis-explained
+http://rasbt.github.io/mlxtend/user_guide/feature_extraction/RBFKernelPCA/
+https://towardsdatascience.com/kernel-pca-vs-pca-vs-ica-in-tensorflow-sklearn-60e17eb15a64
+https://www.geeksforgeeks.org/ml-principal-component-analysispca/
 ```
 
 ## Model Selection and Boosting
+#### SOURCES
+```
 
+```
 ### Model Selection	
+#### SOURCES
+```
 
+```
 ### XGBoost
+#### SOURCES
+```
+
+```
+
+الحمد لله الذى تتم بفضله الصالحات 
