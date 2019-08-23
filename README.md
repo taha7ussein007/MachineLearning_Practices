@@ -708,9 +708,19 @@ https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-ne
 ```
 
 ### Convolutional Neural Networks
-
+#### SOURCES
+```
+https://medium.com/@aggirma/keras-convolutional-neural-network-cnn-implementation-for-hand-gesture-recognition-d7dd11958af6
+https://medium.com/@ksusorokina/image-classification-with-convolutional-neural-networks-496815db12a8
+https://becominghuman.ai/building-an-image-classifier-using-deep-learning-in-python-totally-from-a-beginners-perspective-be8dbaf22dd8
+https://medium.com/nybles/create-your-first-image-recognition-classifier-using-cnn-keras-and-tensorflow-backend-6eaab98d14dd
+https://towardsdatascience.com/image-detection-from-scratch-in-keras-f314872006c9
+https://www.edureka.co/blog/convolutional-neural-network/
+https://keras.io/preprocessing/image/
+```
 
 ## Dimensionality Reduction 
+
 ### Principal Component Analysis (PCA)
 
 ### Linear Discriminant Analysis (LDA)
