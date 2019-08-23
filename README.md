@@ -720,6 +720,13 @@ https://keras.io/preprocessing/image/
 ```
 
 ## Dimensionality Reduction 
+#### SOURCES
+```
+https://medium.com/@sarayupgouda/pca-principal-component-analysis-in-python-f9836c25acb9
+https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c
+https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60
+https://www.freecodecamp.org/news/an-overview-of-principal-component-analysis-6340e3bc4073/
+```
 
 ### Principal Component Analysis (PCA)
 
