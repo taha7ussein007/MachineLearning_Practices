@@ -720,6 +720,8 @@ https://keras.io/preprocessing/image/
 ```
 
 ## Dimensionality Reduction 
+### Principal Component Analysis (PCA)
+
 #### SOURCES
 ```
 https://medium.com/@sarayupgouda/pca-principal-component-analysis-in-python-f9836c25acb9
@@ -728,7 +730,6 @@ https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60
 https://www.freecodecamp.org/news/an-overview-of-principal-component-analysis-6340e3bc4073/
 ```
 
-### Principal Component Analysis (PCA)
 
 ### Linear Discriminant Analysis (LDA)
 
