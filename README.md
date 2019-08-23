@@ -732,8 +732,20 @@ https://www.freecodecamp.org/news/an-overview-of-principal-component-analysis-63
 
 
 ### Linear Discriminant Analysis (LDA)
-
+#### SOURCES
+```
+https://medium.com/@adityaraj_64455/feature-reduction-using-pca-lda-338b9fe64f59
+https://towardsdatascience.com/topic-modeling-and-latent-dirichlet-allocation-in-python-9bf156893c24
+https://towardsdatascience.com/the-complete-guide-for-topics-extraction-in-python-a6aaa6cedbbc
+https://medium.com/machine-learning-researcher/dimensionality-reduction-pca-and-lda-6be91734f567
+https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0
+https://www.freecodecamp.org/news/how-we-changed-unsupervised-lda-to-semi-supervised-guidedlda-e36a95f3a164/
+```
 ### Kernel PCA
+#### SOURCES
+```
+
+```
 
 ## Model Selection and Boosting
 
