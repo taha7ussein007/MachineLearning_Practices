@@ -752,18 +752,23 @@ https://www.geeksforgeeks.org/ml-principal-component-analysispca/
 ```
 
 ## Model Selection and Boosting
-#### SOURCES
-```
 
-```
 ### Model Selection	
 #### SOURCES
 ```
-
+https://towardsdatascience.com/cross-validation-explained-evaluating-estimator-performance-e51e5430ff85
+https://dziganto.github.io/cross-validation/data%20science/machine%20learning/model%20tuning/python/Model-Tuning-with-Validation-and-Cross-Validation/
+https://stackabuse.com/cross-validation-and-grid-search-for-model-selection-in-python/
+https://www.kdnuggets.com/2018/08/building-reliable-machine-learning-models-cross-validation.html
+https://www.analyticsvidhya.com/blog/2018/05/improve-model-performance-cross-validation-in-python-r/
 ```
 ### XGBoost
 #### SOURCES
 ```
+https://medium.com/@gabrieltseng/gradient-boosting-and-xgboost-c306c1bcfaf5
+https://towardsdatascience.com/https-medium-com-vishalmorde-xgboost-algorithm-long-she-may-rein-edd9f99be63d
+https://towardsdatascience.com/fine-tuning-xgboost-in-python-like-a-boss-b4543ed8b1e
+https://medium.com/@imoisharma/gentle-introduction-of-xgboost-library-2b1ac2669680
 
 ```
 
