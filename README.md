@@ -193,8 +193,6 @@ https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052
 https://towardsdatascience.com/a-guide-to-decision-trees-for-machine-learning-and-data-science-fe2607241956
 ```
 
-### Random Forest Regression
-
 ## Classification
 ### Logistic Regression
 Just like linear regression, Logistic regression is the right algorithm to start with classification algorithms. Eventhough, the name ‘Regression’ comes up, it is not a regression model, but a classification model. It uses a logistic function to frame binary output model. The output of the logistic regression will be a probability (0≤x≤1), and can be used to predict the binary 0 or 1 as the output ( if x<0.5, output= 0, else output=1).
